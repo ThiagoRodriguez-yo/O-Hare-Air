@@ -10,7 +10,7 @@ Regulación: Voltaje estabilizado a 5V mediante regulador L7805 con condensadore
 
 Microcontrolador: ESP32-C3 Super Mini.
 
-Componentes pasivos: Resistencias y condensadores en formato SMD 1206, diodo 1N4001 en encapsulado SMA.
+Componentes pasivos: Resistencias y condensadores en formato SMD 1206, diodo 1N4007 en encapsulado SMA.
 
 Objetivo del proyecto
 El objetivo principal de este proyecto es diseñar e implementar un sistema de ventilación inteligente y automatizado que regule el flujo de aire en función de las condiciones ambientales medidas por sensores, aplicando conocimientos de diseño de circuitos impresos y programación de microcontroladores.
