@@ -38,7 +38,9 @@ Control general: Interruptor de palanca y conector de batería.
 
 Protección: Diodo 1N4007 (encapsulado SMA).
 
-Diseño del circuito:
+Diseño del circuito: 
+<img width="815" height="552" alt="image" src="https://github.com/user-attachments/assets/15da050a-f65b-45d5-8c4f-a2d4603ddaf3" />
+
 
 
 
@@ -47,9 +49,13 @@ Descripcion del funcionamiento:
 El sistema monitorea constantemente la temperatura y la humedad del ambiente mediante el sensor DHT11. Los valores leídos se procesan en el ESP32-C3 y se visualizan en tiempo real a través de la pantalla OLED. Cuando la temperatura o la humedad superan los umbrales configurados, el microcontrolador activa el módulo de relé para encender el ventilador de forma automática. Todo el sistema es alimentado por una batería LiPo de 7.4V, la cual pasa por un interruptor general y se reduce a 5V limpios mediante el regulador lineal L7805 protegido por condensadores de desacoplamiento.
 
 Esquematico:
+<img width="613" height="523" alt="image" src="https://github.com/user-attachments/assets/1bd3b50c-cb5c-44ec-be91-f9cb1202c1c9" />
+
 
 
 Layout de PCB:
+<img width="816" height="552" alt="image" src="https://github.com/user-attachments/assets/6d590d96-7cc4-4341-9e83-b3a160b15091" />
+
 
 
 
